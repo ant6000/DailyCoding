@@ -1,6 +1,6 @@
 void main(List<String> args) {
-  String binaryRepresentation = '1111';
-  int result = hammingWeight2(binaryRepresentation);
+  //String binaryRepresentation = '1111';
+  int result = hammingWeight2('0');
   print('Hamming Weight: $result');
 }
 
