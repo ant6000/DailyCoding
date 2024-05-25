@@ -1,3 +1,5 @@
+import 'dart:io';
+
 main(List<String> args) {
   //varible or identifire cant be keyword
   //vriable or identifire cant contin spce or speacial character
@@ -22,6 +24,15 @@ main(List<String> args) {
     //print('keys : $key values: $value');
   });
   for (var b in price.entries) {
-    print('${b.key} ${b.value}');
+    //print('${b.key} ${b.value}');
   }
+
+  //print('Enter your name: ');
+  // String? myname = input;
+
+  // print('hello $myname  your are wealcome');
+  stdout.write('Ennter your fave number');
+  var input = stdin.readLineSync();
+  int? favNum = int.parse(input!);
+  print('your fav number is : $favNum');
 }
