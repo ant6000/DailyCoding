@@ -1,5 +1,6 @@
-import 'package:daily_coding/daily_coding.dart' as daily_coding;
+import 'package:daily_coding/daily_coding.dart';
 
 void main(List<String> arguments) {
-  print('Hello world: ${daily_coding.calculate()}!');
+  print('Hello world: ${calculate()}!');
+  print(arguments);
 }
